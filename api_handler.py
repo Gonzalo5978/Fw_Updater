@@ -13,11 +13,11 @@ class API:
         with open('digicap.dav', 'rb') as f:
             firmware = f.read()
             f.close()
-        req = requests.put("http://" + self.ip + self.call, auth=digest('admin', self.password), data=firmware)
+        req = requests.put("http://" + self.ip + ":" + self.port + self.call, auth=digest('admin', self.password), data=firmware)
         return(req)
 
     def fw_version(self):
-        req = requests.get("http://" + self.ip + self.call, auth=digest('admin', self.password))
+        req = requests.get("http://" + self.ip + ":" + self.port + self.call, auth=digest('admin', self.password))
         with open("info" + ".xml", "wb") as f:
             f.write(req.content)
             f.close()
@@ -27,7 +27,7 @@ class API:
         return(fw_data)
 
     def reboot(self):
-        req = requests.put("http://" + self.ip + self.call, auth=digest('admin', self.password))
+        req = requests.put("http://" + self.ip + ":" + self.port + self.call, auth=digest('admin', self.password))
         return(req)
 
 class APIClean:

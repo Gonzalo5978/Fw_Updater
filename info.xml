@@ -9,9 +9,9 @@
 <serialNumber>DS-2CD2183G2-IU20230720AAWRAD9140390</serialNumber>
 <macAddress>08:54:11:bf:5d:6d</macAddress>
 <firmwareVersion>V5.7.13</firmwareVersion>
-<firmwareReleasedDate>build 230706</firmwareReleasedDate>
+<firmwareReleasedDate>build 230504</firmwareReleasedDate>
 <encoderVersion>V7.3</encoderVersion>
-<encoderReleasedDate>build 230706</encoderReleasedDate>
+<encoderReleasedDate>build 230310</encoderReleasedDate>
 <bootVersion>V1.3.4</bootVersion>
 <bootReleasedDate>100316</bootReleasedDate>
 <hardwareVersion>0x0</hardwareVersion>
