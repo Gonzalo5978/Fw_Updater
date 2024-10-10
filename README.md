@@ -302,8 +302,8 @@ Project Link: [https://github.com/Gonzalo5978/Fw_Updater](https://github.com/Gon
 [stars-url]: https://github.com/Gonzalo5978/Fw_Updater/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Gonzalo5978/Fw_Updater.svg?style=for-the-badge
 [issues-url]: https://github.com/Gonzalo5978/Fw_Updater/issues
-[license-shield]: <https://img.shields.io/badge/License-GPLv3-blue.svg>)](<https://www.gnu.org/licenses/gpl-3.0>
-[license-url]: <https://github.com/Gonzalo5978/Fw_Updater/blob/master/LICENSE.txt>
+[license-shield]: https://img.shields.io/badge/license-GPLv3-blue.svg?style=for-the-badge
+[license-url]: https://github.com/Gonzalo5978/Fw_Updater/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
-[Python]: <https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54>
-[Python-url]: <https://www.python.org/>
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/
