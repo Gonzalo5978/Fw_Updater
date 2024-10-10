@@ -1,2 +1,5 @@
-/digicap.dav
-/info.xml
+digicap.dav
+venv/
+src/__pycache__/
+src/utils/__pycache__/
+src/firmwares/DS-2CD2183G2-IS/digicap.dav
