@@ -213,26 +213,26 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone repository
 
-  ```sh
-  git clone https://github.com/Gonzalo5978/Fw_Updater.git
+    ```sh
+    git clone https://github.com/Gonzalo5978/Fw_Updater.git
     ```
 
 2. Open directory
 
-  ```sh
-  cd Fw_Updater
+    ```sh
+    cd Fw_Updater
     ```
 
 3. Activate virtual enviroment
 
-  ```sh
-  source venv/bin/activate
+    ```sh
+    source venv/bin/activate
     ```
 
 4. Install dependencies
 
-  ```sh
-  pip install -r requirements.txt
+    ```sh
+    pip install -r requirements.txt
     ```
 
 <!-- USAGE EXAMPLES -->
