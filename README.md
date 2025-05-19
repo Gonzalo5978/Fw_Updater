@@ -66,9 +66,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-<p>Project made by Gonzalo Rodríguez.</p>
-<p>This project aims to automate firmware update process by API on compatible devices. This utility removes the </p>
-<p>The received element should contain data of a CCTV model such as security cameras. Actually the API is able to comunicate with Hikvisio ISAPI based devices in order to check it's configurations and change parameters remotely.</p>
+<p><i>Project made by Gonzalo Rodríguez.</i></p>
+<p>This project aims to automate firmware update process on compatible devices.
+Compatible devices receive firmware data using it's own API to reduce upgrading time and avoid manual firmware update errors.</p>
 
 <p>Actual API's implemented:</p>
 <ul>
@@ -206,7 +206,7 @@
 
 ## Installation
 
-<p>To use the tool correctly follow this steps:</p>
+<p>To use the tool follow this steps:</p>
 
 1. Clone repository
 
@@ -220,13 +220,25 @@
     cd Fw_Updater
     ```
 
-3. Activate virtual enviroment
+3. Create virtual environment
+
+    ```sh
+    pythom -m venv venv
+    ```
+
+4. Activate virtual enviroment
 
     ```sh
     source venv/bin/activate
     ```
 
-4. Install dependencies
+5. Upgrade pip
+
+    ```sh
+    pip install --upgrade pip
+    ```
+
+6. Install dependencies
 
     ```sh
     pip install -r requirements.txt
@@ -235,8 +247,29 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### Register new device
+
+<p>If you want to upgrade a device you have to create it's own folder containing the firmware files.</p>
+<p><b>Example:</b></p>
+
+1. Open tool folder
+
+    ```
+    cd ~/Fw_Updater
+    ```
+
+2. Create device model folder
+
+    ```
+    mkdir src/firmwares/<device_model_name>
+    ```
+
+3. Move firmware file to this folder
+
+### Command Tool usage
+
 ```sh
-python run.py --ip <device_ip> --password <device_password> --port <http_port (optional)>
+python run.py --ip <device_ip> --password <device_password> --port <http_port>(optional)
 ```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
