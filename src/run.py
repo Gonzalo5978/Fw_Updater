@@ -22,7 +22,7 @@ if update == 200:
     console.print('[[green][bold]![/bold][/green]] Firmware actualizado correctamente')
     print('')
 else:
-    console.print('[[green][red]![/bold][/red]] Error al actualizar Firmware')
+    console.print('[[red][bold]![/bold][/red]] Error al actualizar Firmware')
     print(update)
 
 console.print('[[cyan][bold]+[/bold][/cyan]] Reiniciando Dispositivo...')
@@ -33,5 +33,5 @@ if reboot == 200:
     console.print('[[green][bold]![/bold][/green]] Dispositivo reiniciado corectamente')
     print('')
 else:
-    console.print('[[green][red]![/bold][/red]] Error en el reinicio del dispositivo')
+    console.print('[[red][bold]![/bold][/red]] Error en el reinicio del dispositivo')
     print(reboot)

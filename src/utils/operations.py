@@ -28,7 +28,14 @@ class Hikvision:
         model_tag = root.find('ns:model', self.namespace)
         if model_tag is not None:
             model_text = model_tag.text
-        return(model_text)
+        if model_text is not None:
+            return(model_text)
+        else:
+            model_tag = root.find('ns:model', {"ns": "http://www.std-cgi.com/ver20/XMLSchema"})
+            if model_tag is not None:
+                model_text = model_tag.text
+            if model_text is not None:
+                return(model_text)
 
     #UPDATE ENDPOINT
     def fw_update(self): #Update device Firmware
