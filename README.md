@@ -223,7 +223,7 @@ Compatible devices receive firmware data using it's own API to reduce upgrading 
 3. Create virtual environment
 
     ```sh
-    pythom -m venv venv
+    python -m venv venv
     ```
 
 4. Activate virtual enviroment
